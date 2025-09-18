@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sistema de Turmas - Home</title>
+  <link rel="shortcut icon" type="image/x-icon" href="../static/img/graduate.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="../static/img/classflow.png" alt="" width="100px">
+      </a>
+      <div class="ms-auto">
+        <a href="{{ url_for('cadastro') }}" class="btn btn-primary">Cadastre-se</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container text-center mt-5" style="max-width: 600px;">
+    <h1 class="mb-4">Bem-vindo à Classflow <span class="emoji">🧠</span>, seu Sistema de Gerenciamento de Turmas</h1>
+    <p class="lead mb-4">
+      Aqui você pode gerenciar suas turmas, registrar atividades e acompanhar seu progresso facilmente.
+    </p>
+    <a href="{{ url_for('login') }}" class="btn btn-lg btn-success">Entrar no sistema</a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

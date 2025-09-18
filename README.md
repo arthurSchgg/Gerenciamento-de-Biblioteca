@@ -1,29 +1,20 @@
-# 📚 **Sistema de Gestão de Biblioteca Escolar**
+# Sistema de Gestão de Turmas e Atividades (SAEP) 📚✏️
 
----
+### Visão Geral 🎯
 
-Este projeto visa revolucionar a maneira como uma biblioteca escolar de médio porte gerencia seu acervo. A solução propõe a substituição do processo manual de planilhas e anotações por um sistema digital completo, eliminando atrasos, perdas de materiais e dificuldades no controle de empréstimos e devoluções.
+Este projeto consiste no desenvolvimento de um sistema web ou desktop focado na gestão acadêmica para professores. O objetivo é fornecer uma ferramenta para que os educadores possam organizar suas turmas e as atividades relacionadas a elas, solucionando a falta de organização que pode ocorrer em ambientes educacionais. O sistema permite que o professor tenha total controle sobre o que é aplicado e avaliado, contribuindo para uma gestão do conhecimento mais eficiente.
 
-O objetivo é criar uma ferramenta robusta e intuitiva que facilite o dia a dia da equipe, otimizando o acesso à informação e a organização da biblioteca.
+### Funcionalidades ✨
 
-### ✨ **Funcionalidades**
+O sistema oferece as seguintes funcionalidades principais:
 
-- **Cadastro de Livros:** Permite registrar e editar informações detalhadas de cada livro, incluindo título, autor, editora, gênero e número de exemplares.
-- **Controle de Empréstimos:** Gerencie empréstimos e devoluções de forma ágil, vinculando cada movimentação a um aluno específico.
-- **Status em Tempo Real:** Mantenha o controle do acervo com a contagem de exemplares disponíveis, emprestados ou reservados.
-- **Alertas Automatizados:** Receba notificações para devoluções atrasadas, garantindo maior controle e organização.
-- **Histórico Completo:** Visualize todo o histórico de movimentações de cada exemplar, sabendo quem pegou, quando e quando devolveu.
+* **Autenticação de Usuário**: 🔐 O professor pode se autenticar no sistema usando e-mail e senha.
+* **Gestão de Turmas**: 👨‍🏫 O professor autenticado pode registrar novas turmas, visualizar a lista de suas turmas e excluir uma turma. O sistema impede a exclusão de uma turma que já possui atividades cadastradas.
+* **Gestão de Atividades**: 📝 Para cada turma, o professor pode registrar novas atividades e visualizar a lista das atividades já cadastradas.
+* **Navegação e Controle de Sessão**: ➡️ O sistema conta com uma tela principal para o professor, navegação entre as telas de turma e atividade e uma funcionalidade de "Sair" que encerra a sessão.
 
-### 💻 **Tecnologias Utilizadas**
+### Estrutura do Projeto 🏗️
 
-O projeto é construído com um conjunto de tecnologias modernas para garantir eficiência e uma experiência de usuário de alta qualidade.
-
-- **Backend:** A lógica e o processamento de dados são desenvolvidos em **Python**.
-- **Frontend:** A interface de usuário será construída com **HTML** e **Bootstrap**, garantindo um design responsivo e acessível.
-- **Banco de Dados:** Usaremos um **banco de dados** robusto para armazenar e gerenciar todas as informações do acervo e dos usuários.
-
----
-
-### **Autor**
+O projeto é modularizado para separar as entregas, incluindo a modelagem do banco de dados, o desenvolvimento da aplicação e a documentação dos requisitos de infraestrutura.
 
 Feito com dedicação por **Arthur Miguel Schlichting**.

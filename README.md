@@ -17,4 +17,5 @@ O sistema oferece as seguintes funcionalidades principais:
 
 O projeto é modularizado para separar as entregas, incluindo a modelagem do banco de dados, o desenvolvimento da aplicação e a documentação dos requisitos de infraestrutura.
 
+---
 Feito com dedicação por **Arthur Miguel Schlichting**.
